@@ -1,0 +1,89 @@
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* A basic font, consider importing a custom font for better design */
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.header h1 {
+  font-size: 1.5em;
+  color: #444;
+}
+
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 10px 20px;
+  width: 50%;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+}
+
+.user-type-selection {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.user-type-btn {
+  padding: 10px 30px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #007BFF; /* A blue color */
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.user-type-btn:hover {
+  background-color: #0056b3; /* A darker blue on hover */
+}
+
+.featured-section {
+  padding: 20px 0;
+}
+
+.featured-job {
+  background-color: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styling can be added as you further design the inner sections and components of the app */
